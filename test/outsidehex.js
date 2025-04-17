@@ -7,4 +7,4 @@ const pcsa = new (require("../src/index"))() // Get the PCsA utillity class, im 
 pcsa.updateInput("Bruh")
     .updateKey("fe is iron! this si not a key") // TypeError.
 
-// "fe" is [15, 14], but the space inside it is not a hex.
+// "fe" is [15, 14], but the space next to it is not a hex.
